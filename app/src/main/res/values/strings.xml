@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Navigation Drawer Style One</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="welcome_n_jamil_lab_ltd">Welcome! \n Jamil Lab LTD</string>
+    <string name="your_app_name">Jamil Lab LTD</string>
+    <string name="email">lrjamilbd@gmail.com</string>
+
+
+</resources>

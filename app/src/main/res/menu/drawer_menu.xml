@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings" />
+
+        <item android:title="Social Links">
+            <menu>
+                <item
+                    android:id="@+id/facebookMenuId"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="Facebook" />
+                <item
+                    android:id="@+id/youTubeMenuId"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="YouTube" />
+                <item
+                    android:id="@+id/instagramMenuId"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="Instagram" />
+
+
+            </menu>
+        </item>
+
+        <item android:title="More">
+            <menu>
+                <item
+                    android:id="@+id/exitMenuId"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Exit" />
+            </menu>
+        </item>
+
+    </group>
+
+
+</menu>
