@@ -8,6 +8,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -60,6 +61,18 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
+    //set option menu
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.option_menu, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
     //option menu in action bar
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -68,9 +81,9 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.action_settings) {
             // Handle settings item click
+            Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show();
             return true;
         }
-
 
         return super.onOptionsItemSelected(item);
     }
