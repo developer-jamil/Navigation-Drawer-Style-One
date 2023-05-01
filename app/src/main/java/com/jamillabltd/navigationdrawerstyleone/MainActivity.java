@@ -84,9 +84,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void hiJamil(){
-        String newText  =  "Added this method";
-    }
-
-
 }
