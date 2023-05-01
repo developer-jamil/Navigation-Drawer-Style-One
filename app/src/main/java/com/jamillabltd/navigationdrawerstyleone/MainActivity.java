@@ -83,4 +83,10 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
+
+    private void hiJamil(){
+        String newText  =  "Added this method";
+    }
+
+
 }
